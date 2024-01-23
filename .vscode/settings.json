@@ -1,6 +1,42 @@
 {
-    "cSpell.words": [
-        "docfx",
-        "Sindresorhus"
-    ]
+  //-------- Workbench configuration --------
+  // Overrides colors from the currently selected color theme.
+  "workbench.colorCustomizations": {
+    "statusBar.background": "#d3092a",
+    "statusBar.foreground": "#fafafa"
+  },
+
+  //-------- Editor configuration --------
+  // Controls auto save of editors that have unsaved changes.
+  "editor.formatOnSave": true,
+  // Controls formatter
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+
+  //-------- File Explorer configuration --------
+  // Controls the way of sorting files and directories in the explorer
+  "explorer.sortOrder": "type",
+
+  //-------- Files configuration --------
+  // Configure glob patterns for excluding files and folders.
+  "files.exclude": {
+    "**/.git": true,
+    "**/.DS_Store": true,
+    "**/node_modules": true
+  },
+
+  //-------- Search configuration --------
+  // Configure glob patterns for excluding files and folders in searches. Inherits all glob patterns from the file.exclude setting.
+  "search.exclude": {
+    "**/.git": true,
+    "**/.DS_Store": true,
+    "**/node_modules": true
+  },
+
+  //-------- Node configuration --------
+  // The package manager used to run scripts.
+  "npm.packageManager": "pnpm",
+
+  //-------- Code spell checker configuration --------
+  // Configure words
+  "cSpell.words": ["docfx", "Sindresorhus"]
 }

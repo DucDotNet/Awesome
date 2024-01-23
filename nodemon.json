@@ -1,0 +1,11 @@
+{
+  "watch": ["index.md", "docs/**/*.*"],
+  "ignore": [
+    "**/bin/**/*.*",
+    "**/obj/**/*.*",
+    "**/node_modules/**/*.*",
+    "**/_site/**"
+  ],
+  "ext": "md,yml,csproj,cs,txt",
+  "exec": "pnpm run build-web"
+}
